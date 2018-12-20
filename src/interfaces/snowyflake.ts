@@ -1,9 +1,10 @@
+export type Snowflake = bigint;
+
 export interface SnowyflakeOptions {
+	epoch?: bigint;
+
 	workerId?: bigint;
 	processId?: bigint;
-	sequence?: bigint;
-
-	epoch?: bigint;
 }
 
 export interface SnowyflakeGenerateCustomIdOptions {
