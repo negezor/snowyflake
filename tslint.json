@@ -5,6 +5,7 @@
     ],
     "jsRules": {},
     "rules": {
+		"import-name": false,
 		"indent": [true, "tabs"],
 		"ter-indent": [true, "tab"],
 		"trailing-comma": [true, "never"]
