@@ -1,6 +1,6 @@
 {
 	"name": "snowyflake",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "A modern implementation Snowflake on TypeScript",
 	"license": "MIT",
 	"author": {
