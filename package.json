@@ -1,0 +1,47 @@
+{
+	"name": "snowyflake",
+	"version": "0.0.1",
+	"description": "A modern implementation Snowflake on TypeScript",
+	"license": "MIT",
+	"author": {
+		"name": "Vladlen (Negezor)",
+		"email": "negezor@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/negezor/snowyflake.git"
+	},
+	"homepage": "https://github.com/negezor/snowyflake#readme",
+	"bugs": "https://github.com/negezor/snowyflake/issues",
+	"keywords": [
+		"snowflake",
+		"twitter",
+		"bigint",
+		"typescript",
+		"generator"
+	],
+	"files": [
+		"lib"
+	],
+	"main": "lib/index",
+	"types": "./lib/index.d.ts",
+	"engines": {
+		"node": ">=10.0.0"
+	},
+	"devDependencies": {
+		"dts-bundle-generator": "^2.0.0",
+		"rollup": "^0.68.1",
+		"rollup-plugin-typescript": "^1.0.0",
+		"tslib": "^1.9.3",
+		"tslint": "^5.12.0",
+		"tslint-config-airbnb": "^5.11.1",
+		"typescript": "^3.2.2"
+	},
+	"scripts": {
+		"prepare": "yarn run rollup:build && yarn run types:generate",
+		"rollup:build": "rollup -c",
+		"rollup:watch": "yarn run rollup:build -- --watch",
+		"types:generate": "dts-bundle-generator -o lib/index.d.ts src/index.ts",
+		"test": "echo \"Error: no test specified\" && exit 0"
+	}
+}
