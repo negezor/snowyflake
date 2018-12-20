@@ -11,22 +11,21 @@ Snowyflake - A modern implementation Snowflake on TypeScript
 ```js
 import Snowlyflake, { EPOCHS } from 'snowyflake';
 
-console.log(new Snowlyflake);
-
 const snowlyflake = new Snowlyflake({
 	workerId: 1n,
-	epoch: EPOCHS.DISCORD // BigInt timestamp
+	epoch: EPOCHS.TWITTER // BigInt timestamp
 });
 
 const snowflake = snowlyflake.nextId();
 
-console.log('Snowflake', snowflake); // => 525232527980494849n
+console.log(snowflake); // => 1075766315999952896n
 
 const deconstructSnowflake = snowlyflake.deconstruct(snowflake);
 
-console.log('Deconstructed Snowflake', deconstructSnowflake); // =>
-// { timestamp: 1545295593019n,
-//   workerId: 1n,
-//   processId: 0n,
-//   sequence: 1n }
+console.log(deconstructSnowflake); // =>
+// { timestamp: 1545317651163n,
+// 	workerId: 1n,
+// 	processId: 0n,
+// 	sequence: 0n }
+
 ```
