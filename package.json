@@ -24,14 +24,18 @@
 		"lib"
 	],
 	"main": "lib/index",
-	"types": "./lib/index.d.ts",
+	"module": "lib/index.mjs",
+	"types": "lib/index.d.ts",
 	"engines": {
 		"node": ">=10.0.0"
 	},
 	"devDependencies": {
+		"@types/jest": "^23.3.10",
 		"dts-bundle-generator": "^2.0.0",
+		"jest": "^23.6.0",
 		"rollup": "^0.68.1",
 		"rollup-plugin-typescript": "^1.0.0",
+		"ts-jest": "^23.10.5",
 		"tslib": "^1.9.3",
 		"tslint": "^5.12.0",
 		"tslint-config-airbnb": "^5.11.1",
@@ -42,6 +46,8 @@
 		"rollup:build": "rollup -c",
 		"rollup:watch": "yarn run rollup:build -- --watch",
 		"types:generate": "dts-bundle-generator -o lib/index.d.ts src/index.ts",
-		"test": "echo \"Error: no test specified\" && exit 0"
+		"test": "yarn run test:jest && yarn run test:tslint",
+		"test:jest": "jest --config jest.config.json --no-cache",
+		"test:tslint": "tslint -p ./"
 	}
 }
