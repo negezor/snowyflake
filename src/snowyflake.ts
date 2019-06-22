@@ -1,15 +1,16 @@
 import {
 	Snowflake,
 
-	SnowyflakeOptions,
-	SnowyflakeDeconstructOptions,
-	SnowyflakeGenerateCustomIdOptions,
+	ISnowyflakeOptions,
+	ISnowyflakeDeconstructOptions,
+	ISnowyflakeGenerateCustomIdOptions,
 
-	DeconstructedSnowflake
+	IDeconstructedSnowflake
 } from './interfaces';
 
 import {
-	EPOCHS,
+	Epochs,
+
 	DEFAULT_VALUE,
 	DEFAULT_SEQUENCE,
 
@@ -24,8 +25,9 @@ import {
 	PROCESS_ID_DECONSTRUCT_MASK,
 
 	USIGNED_INCREASE
-} from './utils/constants';
-import { getNowBigInt } from './utils/helpers';
+} from './constants';
+
+import { getNowBigInt } from './helpers';
 
 /**
  * NOTE: The BigInt constructor is used instead of a primitive because of a compiler bug.
@@ -59,12 +61,12 @@ export default class Snowyflake {
 	/**
 	 * Constructor
 	 */
-	constructor({
-		epoch = EPOCHS.UNIX,
+	public constructor({
+		epoch = Epochs.UNIX,
 
 		workerId = DEFAULT_VALUE,
 		processId = DEFAULT_VALUE
-	}: SnowyflakeOptions = {}) {
+	}: ISnowyflakeOptions = {}) {
 		this.epoch = epoch;
 
 		this.workerId = workerId & WORKER_ID_MASK;
@@ -74,16 +76,16 @@ export default class Snowyflake {
 	/**
 	 * Generate a Snowflake
 	 */
-	nextId(): Snowflake {
+	public nextId(): Snowflake {
 		const timestamp = getNowBigInt();
 
 		if (this.latestTimestamp === timestamp) {
 			this.sequence = (this.sequence + USIGNED_INCREASE) & SEQUNCE_MASK;
 		} else {
 			this.sequence = DEFAULT_SEQUENCE;
-		}
 
-		this.latestTimestamp = timestamp;
+			this.latestTimestamp = timestamp;
+		}
 
 		return this.generateCustomId({
 			timestamp,
@@ -94,7 +96,7 @@ export default class Snowyflake {
 	/**
 	 * Deconstruct the Snowflake with local epoch
 	 */
-	deconstruct(snowflake: Snowflake): DeconstructedSnowflake {
+	public deconstruct(snowflake: Snowflake): IDeconstructedSnowflake {
 		return Snowyflake.deconstruct(snowflake, {
 			epoch: this.epoch
 		});
@@ -103,14 +105,14 @@ export default class Snowyflake {
 	/**
 	 * Generate a custom Snowflake
 	 */
-	generateCustomId({
+	public generateCustomId({
 		timestamp,
 		sequence
-	}: SnowyflakeGenerateCustomIdOptions): Snowflake {
+	}: ISnowyflakeGenerateCustomIdOptions): Snowflake {
 		return (
-			(timestamp - this.epoch) << TIMESTAMP_LEFT_SHIFT
-			| this.workerId << WORKER_ID_SHIFT
-			| this.processId << PROCESS_ID_SHIFT
+			((timestamp - this.epoch) << TIMESTAMP_LEFT_SHIFT)
+			| (this.workerId << WORKER_ID_SHIFT)
+			| (this.processId << PROCESS_ID_SHIFT)
 			| sequence
 		);
 	}
@@ -118,38 +120,38 @@ export default class Snowyflake {
 	/**
 	 * Deconstruct the Snowflake timestamp
 	 */
-	static deconstructTimestamp(snowflake: Snowflake, epoch: bigint = EPOCHS.UNIX): bigint {
+	public static deconstructTimestamp(snowflake: Snowflake, epoch: bigint): bigint {
 		return (snowflake >> TIMESTAMP_LEFT_SHIFT) + epoch;
 	}
 
 	/**
 	 * Deconstruct the Snowflake workerId
 	 */
-	static deconstructWorkerId(snowflake: Snowflake): bigint {
+	public static deconstructWorkerId(snowflake: Snowflake): bigint {
 		return (snowflake & WORKER_ID_DECONSTRUCT_MASK) >> WORKER_ID_SHIFT;
 	}
 
 	/**
 	 * Deconstruct the Snowflake processId
 	 */
-	static deconstructProcessId(snowflake: Snowflake): bigint {
+	public static deconstructProcessId(snowflake: Snowflake): bigint {
 		return (snowflake & PROCESS_ID_DECONSTRUCT_MASK) >> PROCESS_ID_SHIFT;
 	}
 
 	/**
 	 * Deconstruct the Snowflake sequence
 	 */
-	static deconstructSequence(snowflake: Snowflake): bigint {
+	public static deconstructSequence(snowflake: Snowflake): bigint {
 		return snowflake & SEQUNCE_MASK;
 	}
 
 	/**
 	 * Deconstruct the Snowflake
 	 */
-	static deconstruct(
+	public static deconstruct(
 		snowflake: Snowflake,
-		{ epoch }: SnowyflakeDeconstructOptions = {}
-	): DeconstructedSnowflake {
+		{ epoch }: ISnowyflakeDeconstructOptions
+	): IDeconstructedSnowflake {
 		return {
 			timestamp: Snowyflake.deconstructTimestamp(snowflake, epoch),
 			workerId: Snowyflake.deconstructWorkerId(snowflake),

@@ -1,21 +1,21 @@
-export const EPOCHS = {
-	UNIX: BigInt(0),
-	TWITTER: BigInt(1288834974657),
-	DISCORD: BigInt(1420070400000)
+export const Epochs = {
+	UNIX: 0n,
+	TWITTER: 1288834974657n,
+	DISCORD: 1420070400000n
 };
 
-export const DEFAULT_VALUE = BigInt(0);
+export const DEFAULT_VALUE = 0n;
 export const DEFAULT_SEQUENCE = DEFAULT_VALUE;
 
-export const USIGNED_INCREASE = BigInt(1);
-export const SIGNED_INCREASE = BigInt(-1);
+export const USIGNED_INCREASE = 1n;
+export const SIGNED_INCREASE = -1n;
 
-export const WORKER_ID_BITS = BigInt(5);
-export const PROCESS_ID_BITS = BigInt(5);
-export const SEQUENCE_BITS = BigInt(12);
+export const WORKER_ID_BITS = 5n;
+export const PROCESS_ID_BITS = 5n;
+export const SEQUENCE_BITS = 12n;
 
-export const WORKER_ID_DECONSTRUCT_MASK = BigInt(0x3E0000);
-export const PROCESS_ID_DECONSTRUCT_MASK = BigInt(0x1F000);
+export const WORKER_ID_DECONSTRUCT_MASK = 0x3E0000n;
+export const PROCESS_ID_DECONSTRUCT_MASK = 0x1F000n;
 
 export const WORKER_ID_MASK = SIGNED_INCREASE ^ (SIGNED_INCREASE << WORKER_ID_BITS);
 export const PROCESS_ID_MASK = SIGNED_INCREASE ^ (SIGNED_INCREASE << PROCESS_ID_BITS);

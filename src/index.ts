@@ -1,6 +1,6 @@
 import Snowyflake from './snowyflake';
 
-export { EPOCHS } from './utils/constants';
+export { Epochs } from './constants';
 
 export { Snowyflake };
 
