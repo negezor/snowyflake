@@ -29,7 +29,11 @@
 		"arrow-parens": "off",
 		"no-tabs": ["error", {
 			"allowIndentationTabs": true
-		}]
+		}],
+		"no-bitwise": "off"
+	},
+	"globals": {
+		"BigInt": "readonly"
 	},
 	"overrides": [
 		{
