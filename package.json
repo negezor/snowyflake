@@ -31,14 +31,17 @@
 	},
 	"devDependencies": {
 		"@types/jest": "^23.3.10",
+		"@typescript-eslint/eslint-plugin": "^1.10.2",
+		"@typescript-eslint/parser": "^1.10.2",
 		"dts-bundle-generator": "^2.0.0",
+		"eslint": "^6.0.0",
+		"eslint-config-airbnb-base": "^13.1.0",
+		"eslint-plugin-import": "^2.17.3",
 		"jest": "^23.6.0",
 		"rollup": "^0.68.1",
 		"rollup-plugin-typescript": "^1.0.0",
 		"ts-jest": "^23.10.5",
 		"tslib": "^1.9.3",
-		"tslint": "^5.12.0",
-		"tslint-config-airbnb": "^5.11.1",
 		"typescript": "^3.2.2"
 	},
 	"scripts": {
@@ -46,8 +49,8 @@
 		"rollup:build": "rollup -c",
 		"rollup:watch": "yarn run rollup:build -- --watch",
 		"types:generate": "dts-bundle-generator -o lib/index.d.ts src/index.ts",
-		"test": "yarn run test:jest && yarn run test:tslint",
+		"test": "yarn run test:jest && yarn run test:eslint",
 		"test:jest": "jest --config jest.config.json --no-cache",
-		"test:tslint": "tslint -p ./"
+		"test:eslint": "eslint --ext .ts --ignore-path .gitignore src/**/*.ts"
 	}
 }
