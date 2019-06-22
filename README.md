@@ -9,11 +9,11 @@ Snowyflake - A modern implementation Snowflake on TypeScript
 
 ## Example usage
 ```js
-import Snowlyflake, { EPOCHS } from 'snowyflake';
+import Snowlyflake, { Epochs } from 'snowyflake';
 
 const snowlyflake = new Snowlyflake({
 	workerId: 1n,
-	epoch: EPOCHS.TWITTER // BigInt timestamp
+	epoch: Epochs.TWITTER // BigInt timestamp
 });
 
 const snowflake = snowlyflake.nextId();
