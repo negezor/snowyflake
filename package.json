@@ -45,7 +45,7 @@
 		"typescript": "^3.5.2"
 	},
 	"scripts": {
-		"prepare": "yarn run rollup:build && yarn run types:generate",
+		"prepare": "yarn run rollup:build && yarn run types:generate && yarn run test",
 		"rollup:build": "rollup -c",
 		"rollup:watch": "yarn run rollup:build -- --watch",
 		"types:generate": "dts-bundle-generator -o lib/index.d.ts src/index.ts",
