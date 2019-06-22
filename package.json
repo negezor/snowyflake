@@ -42,6 +42,8 @@
 		"rollup-plugin-typescript": "^1.0.1",
 		"ts-jest": "^24.0.2",
 		"tslib": "^1.10.0",
+		"typedoc": "^0.14.2",
+		"typedoc-plugin-markdown": "^2.0.6",
 		"typescript": "^3.5.2"
 	},
 	"scripts": {
@@ -51,6 +53,7 @@
 		"types:generate": "dts-bundle-generator -o lib/index.d.ts src/index.ts",
 		"test": "yarn run test:jest && yarn run test:eslint",
 		"test:jest": "jest --config jest.config.json --no-cache",
-		"test:eslint": "eslint --ext .ts --ignore-path .gitignore src/**/*.ts"
+		"test:eslint": "eslint --ext .ts --ignore-path .gitignore src/**/*.ts",
+		"docs:generate": "typedoc --theme markdown --out docs --excludeExternals --readme none src"
 	}
 }

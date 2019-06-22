@@ -7,6 +7,9 @@
 
 Snowyflake - A modern implementation Snowflake on TypeScript
 
+| 📖 [Documentation](docs/) |
+|---------------------------|
+
 ## Example usage
 ```js
 import Snowlyflake, { Epochs } from 'snowyflake';
