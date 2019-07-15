@@ -10,6 +10,22 @@ Snowyflake - A modern implementation Snowflake on TypeScript
 | 📖 [Documentation](docs/) |
 |---------------------------|
 
+## Installation
+> **[Node.js](https://nodejs.org/) 10.16.0 or newer is required**
+
+> **TypeScript config required `"targer": "esnext"`**
+
+### Yarn
+Recommended
+```
+yarn add snowyflake
+```
+
+### NPM
+```
+npm i snowyflake
+```
+
 ## Example usage
 ```js
 import { Snowyflake, Epochs } from 'snowyflake';
