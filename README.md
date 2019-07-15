@@ -12,18 +12,18 @@ Snowyflake - A modern implementation Snowflake on TypeScript
 
 ## Example usage
 ```js
-import { Snowlyflake, Epochs } from 'snowyflake';
+import { Snowyflake, Epochs } from 'snowyflake';
 
-const snowlyflake = new Snowlyflake({
+const snowyflake = new Snowyflake({
 	workerId: 1n,
 	epoch: Epochs.TWITTER // BigInt timestamp
 });
 
-const snowflake = snowlyflake.nextId();
+const snowflake = snowyflake.nextId();
 
 console.log(snowflake); // => 1075766315999952896n
 
-const deconstructSnowflake = snowlyflake.deconstruct(snowflake);
+const deconstructSnowflake = snowyflake.deconstruct(snowflake);
 
 console.log(deconstructSnowflake); // =>
 // { timestamp: 1545317651163n,
