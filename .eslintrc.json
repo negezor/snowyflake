@@ -30,7 +30,8 @@
 		"no-tabs": ["error", {
 			"allowIndentationTabs": true
 		}],
-		"no-bitwise": "off"
+		"no-bitwise": "off",
+		"indent": "off"
 	},
 	"globals": {
 		"BigInt": "readonly"
