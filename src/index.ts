@@ -1,5 +1,3 @@
-import { Snowyflake } from './snowyflake';
-
 export {
 	Epoch,
 
@@ -9,7 +7,5 @@ export {
 	Epoch as Epochs
 } from './constants';
 
-export { Snowyflake };
-
 // eslint-disable-next-line import/no-default-export
-export default Snowyflake;
+export { Snowyflake, Snowyflake as default } from './snowyflake';
