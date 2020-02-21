@@ -1,9 +1,8 @@
 {
 	"compilerOptions": {
-		"target": "esnext",
-		"module": "esnext",
-		"lib": ["esnext"],
-		"moduleResolution": "node",
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
 		"declaration": true,
 		"sourceMap": false,
 		"strict": true
