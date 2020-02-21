@@ -1,8 +1,10 @@
-> ## [snowyflake](README.md)
+[snowyflake](README.md)
 
-### Index
+# snowyflake
 
-#### External modules
+## Index
+
+### External modules
 
 * ["constants"](modules/_constants_.md)
 * ["helpers"](modules/_helpers_.md)

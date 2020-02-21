@@ -1,6 +1,4 @@
-> ## [snowyflake](../README.md)
-
-["interfaces"](../modules/_interfaces_.md) / [ISnowyflakeDeconstructOptions](_interfaces_.isnowyflakedeconstructoptions.md) /
+[snowyflake](../README.md) › ["interfaces"](../modules/_interfaces_.md) › [ISnowyflakeDeconstructOptions](_interfaces_.isnowyflakedeconstructoptions.md)
 
 # Interface: ISnowyflakeDeconstructOptions
 
@@ -8,9 +6,9 @@
 
 * **ISnowyflakeDeconstructOptions**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [epoch](_interfaces_.isnowyflakedeconstructoptions.md#epoch)
 
@@ -18,8 +16,6 @@
 
 ###  epoch
 
-● **epoch**: *bigint*
+• **epoch**: *bigint*
 
-*Defined in [interfaces.ts:16](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L16)*
-
-___
+*Defined in [interfaces.ts:16](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L16)*

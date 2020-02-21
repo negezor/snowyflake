@@ -1,6 +1,4 @@
-> ## [snowyflake](../README.md)
-
-["interfaces"](../modules/_interfaces_.md) / [IDeconstructedSnowflake](_interfaces_.ideconstructedsnowflake.md) /
+[snowyflake](../README.md) › ["interfaces"](../modules/_interfaces_.md) › [IDeconstructedSnowflake](_interfaces_.ideconstructedsnowflake.md)
 
 # Interface: IDeconstructedSnowflake
 
@@ -8,9 +6,9 @@
 
 * **IDeconstructedSnowflake**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [processId](_interfaces_.ideconstructedsnowflake.md#processid)
 * [sequence](_interfaces_.ideconstructedsnowflake.md#sequence)
@@ -21,32 +19,30 @@
 
 ###  processId
 
-● **processId**: *bigint*
+• **processId**: *bigint*
 
-*Defined in [interfaces.ts:22](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L22)*
+*Defined in [interfaces.ts:22](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L22)*
 
 ___
 
 ###  sequence
 
-● **sequence**: *bigint*
+• **sequence**: *bigint*
 
-*Defined in [interfaces.ts:23](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L23)*
+*Defined in [interfaces.ts:23](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L23)*
 
 ___
 
 ###  timestamp
 
-● **timestamp**: *bigint*
+• **timestamp**: *bigint*
 
-*Defined in [interfaces.ts:20](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L20)*
+*Defined in [interfaces.ts:20](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L20)*
 
 ___
 
 ###  workerId
 
-● **workerId**: *bigint*
+• **workerId**: *bigint*
 
-*Defined in [interfaces.ts:21](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L21)*
-
-___
+*Defined in [interfaces.ts:21](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L21)*

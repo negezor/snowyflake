@@ -1,6 +1,4 @@
-> ## [snowyflake](../README.md)
-
-["interfaces"](../modules/_interfaces_.md) / [ISnowyflakeOptions](_interfaces_.isnowyflakeoptions.md) /
+[snowyflake](../README.md) › ["interfaces"](../modules/_interfaces_.md) › [ISnowyflakeOptions](_interfaces_.isnowyflakeoptions.md)
 
 # Interface: ISnowyflakeOptions
 
@@ -8,9 +6,9 @@
 
 * **ISnowyflakeOptions**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [epoch](_interfaces_.isnowyflakeoptions.md#optional-epoch)
 * [processId](_interfaces_.isnowyflakeoptions.md#optional-processid)
@@ -20,24 +18,22 @@
 
 ### `Optional` epoch
 
-● **epoch**? : *undefined | bigint*
+• **epoch**? : *undefined | bigint*
 
-*Defined in [interfaces.ts:4](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L4)*
+*Defined in [interfaces.ts:4](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L4)*
 
 ___
 
 ### `Optional` processId
 
-● **processId**? : *undefined | bigint*
+• **processId**? : *undefined | bigint*
 
-*Defined in [interfaces.ts:7](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L7)*
+*Defined in [interfaces.ts:7](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L7)*
 
 ___
 
 ### `Optional` workerId
 
-● **workerId**? : *undefined | bigint*
+• **workerId**? : *undefined | bigint*
 
-*Defined in [interfaces.ts:6](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L6)*
-
-___
+*Defined in [interfaces.ts:6](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L6)*

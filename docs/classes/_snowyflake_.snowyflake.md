@@ -1,22 +1,18 @@
-> ## [snowyflake](../README.md)
-
-["snowyflake"](../modules/_snowyflake_.md) / [Snowyflake](_snowyflake_.snowyflake.md) /
+[snowyflake](../README.md) › ["snowyflake"](../modules/_snowyflake_.md) › [Snowyflake](_snowyflake_.snowyflake.md)
 
 # Class: Snowyflake
-
-NOTE: The BigInt constructor is used instead of a primitive because of a compiler bug.
 
 ## Hierarchy
 
 * **Snowyflake**
 
-### Index
+## Index
 
-#### Constructors
+### Constructors
 
 * [constructor](_snowyflake_.snowyflake.md#constructor)
 
-#### Properties
+### Properties
 
 * [epoch](_snowyflake_.snowyflake.md#epoch)
 * [latestTimestamp](_snowyflake_.snowyflake.md#private-latesttimestamp)
@@ -24,7 +20,7 @@ NOTE: The BigInt constructor is used instead of a primitive because of a compile
 * [sequence](_snowyflake_.snowyflake.md#private-sequence)
 * [workerId](_snowyflake_.snowyflake.md#workerid)
 
-#### Methods
+### Methods
 
 * [deconstruct](_snowyflake_.snowyflake.md#deconstruct)
 * [generateCustomId](_snowyflake_.snowyflake.md#generatecustomid)
@@ -41,31 +37,29 @@ NOTE: The BigInt constructor is used instead of a primitive because of a compile
 
 \+ **new Snowyflake**(`__namedParameters`: object): *[Snowyflake](_snowyflake_.snowyflake.md)*
 
-*Defined in [snowyflake.ts:59](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L59)*
+*Defined in [snowyflake.ts:56](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L56)*
 
 Constructor
 
 **Parameters:**
 
-■`Default value` ` __namedParameters`: *object*=  {}
+▪`Default value`  **__namedParameters**: *object*= {}
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`epoch` | bigint |  Epochs.UNIX |
-`processId` | bigint |  DEFAULT_VALUE |
-`workerId` | bigint |  DEFAULT_VALUE |
+`epoch` | bigint | Epoch.UNIX |
+`processId` | bigint | DEFAULT_VALUE |
+`workerId` | bigint | DEFAULT_VALUE |
 
 **Returns:** *[Snowyflake](_snowyflake_.snowyflake.md)*
-
-___
 
 ## Properties
 
 ###  epoch
 
-● **epoch**: *bigint*
+• **epoch**: *bigint*
 
-*Defined in [snowyflake.ts:39](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L39)*
+*Defined in [snowyflake.ts:36](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L36)*
 
 Snowflake start epoch
 
@@ -73,9 +67,9 @@ ___
 
 ### `Private` latestTimestamp
 
-● **latestTimestamp**: *bigint* =  getNowBigInt()
+• **latestTimestamp**: *bigint* = getNowBigInt()
 
-*Defined in [snowyflake.ts:59](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L59)*
+*Defined in [snowyflake.ts:56](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L56)*
 
 Latest timestamp
 
@@ -83,9 +77,9 @@ ___
 
 ###  processId
 
-● **processId**: *bigint*
+• **processId**: *bigint*
 
-*Defined in [snowyflake.ts:49](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L49)*
+*Defined in [snowyflake.ts:46](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L46)*
 
 Internal process ID
 
@@ -93,9 +87,9 @@ ___
 
 ### `Private` sequence
 
-● **sequence**: *bigint* =  DEFAULT_SEQUENCE
+• **sequence**: *bigint* = DEFAULT_SEQUENCE
 
-*Defined in [snowyflake.ts:54](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L54)*
+*Defined in [snowyflake.ts:51](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L51)*
 
 Sequence increment for process
 
@@ -103,13 +97,11 @@ ___
 
 ###  workerId
 
-● **workerId**: *bigint*
+• **workerId**: *bigint*
 
-*Defined in [snowyflake.ts:44](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L44)*
+*Defined in [snowyflake.ts:41](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L41)*
 
 Internal worker ID
-
-___
 
 ## Methods
 
@@ -117,7 +109,7 @@ ___
 
 ▸ **deconstruct**(`snowflake`: [Snowflake](../modules/_interfaces_.md#snowflake)): *[IDeconstructedSnowflake](../interfaces/_interfaces_.ideconstructedsnowflake.md)*
 
-*Defined in [snowyflake.ts:99](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L99)*
+*Defined in [snowyflake.ts:96](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L96)*
 
 Deconstruct the Snowflake with local epoch
 
@@ -135,13 +127,13 @@ ___
 
 ▸ **generateCustomId**(`__namedParameters`: object): *[Snowflake](../modules/_interfaces_.md#snowflake)*
 
-*Defined in [snowyflake.ts:108](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L108)*
+*Defined in [snowyflake.ts:105](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L105)*
 
 Generate a custom Snowflake
 
 **Parameters:**
 
-■` __namedParameters`: *object*
+▪ **__namedParameters**: *object*
 
 Name | Type |
 ------ | ------ |
@@ -156,7 +148,7 @@ ___
 
 ▸ **nextId**(): *[Snowflake](../modules/_interfaces_.md#snowflake)*
 
-*Defined in [snowyflake.ts:79](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L79)*
+*Defined in [snowyflake.ts:76](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L76)*
 
 Generate a Snowflake
 
@@ -168,15 +160,15 @@ ___
 
 ▸ **deconstruct**(`snowflake`: [Snowflake](../modules/_interfaces_.md#snowflake), `__namedParameters`: object): *[IDeconstructedSnowflake](../interfaces/_interfaces_.ideconstructedsnowflake.md)*
 
-*Defined in [snowyflake.ts:151](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L151)*
+*Defined in [snowyflake.ts:148](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L148)*
 
 Deconstruct the Snowflake
 
 **Parameters:**
 
-■` snowflake`: *[Snowflake](../modules/_interfaces_.md#snowflake)*
+▪ **snowflake**: *[Snowflake](../modules/_interfaces_.md#snowflake)*
 
-■` __namedParameters`: *object*
+▪ **__namedParameters**: *object*
 
 Name | Type |
 ------ | ------ |
@@ -190,7 +182,7 @@ ___
 
 ▸ **deconstructProcessId**(`snowflake`: [Snowflake](../modules/_interfaces_.md#snowflake)): *bigint*
 
-*Defined in [snowyflake.ts:137](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L137)*
+*Defined in [snowyflake.ts:134](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L134)*
 
 Deconstruct the Snowflake processId
 
@@ -208,7 +200,7 @@ ___
 
 ▸ **deconstructSequence**(`snowflake`: [Snowflake](../modules/_interfaces_.md#snowflake)): *bigint*
 
-*Defined in [snowyflake.ts:144](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L144)*
+*Defined in [snowyflake.ts:141](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L141)*
 
 Deconstruct the Snowflake sequence
 
@@ -226,7 +218,7 @@ ___
 
 ▸ **deconstructTimestamp**(`snowflake`: [Snowflake](../modules/_interfaces_.md#snowflake), `epoch`: bigint): *bigint*
 
-*Defined in [snowyflake.ts:123](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L123)*
+*Defined in [snowyflake.ts:120](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L120)*
 
 Deconstruct the Snowflake timestamp
 
@@ -245,7 +237,7 @@ ___
 
 ▸ **deconstructWorkerId**(`snowflake`: [Snowflake](../modules/_interfaces_.md#snowflake)): *bigint*
 
-*Defined in [snowyflake.ts:130](https://github.com/negezor/snowyflake/blob/3efa9e8/src/snowyflake.ts#L130)*
+*Defined in [snowyflake.ts:127](https://github.com/negezor/snowyflake/blob/d888ffb/src/snowyflake.ts#L127)*
 
 Deconstruct the Snowflake workerId
 
@@ -256,5 +248,3 @@ Name | Type |
 `snowflake` | [Snowflake](../modules/_interfaces_.md#snowflake) |
 
 **Returns:** *bigint*
-
-___

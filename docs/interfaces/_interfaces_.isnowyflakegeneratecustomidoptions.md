@@ -1,6 +1,4 @@
-> ## [snowyflake](../README.md)
-
-["interfaces"](../modules/_interfaces_.md) / [ISnowyflakeGenerateCustomIdOptions](_interfaces_.isnowyflakegeneratecustomidoptions.md) /
+[snowyflake](../README.md) › ["interfaces"](../modules/_interfaces_.md) › [ISnowyflakeGenerateCustomIdOptions](_interfaces_.isnowyflakegeneratecustomidoptions.md)
 
 # Interface: ISnowyflakeGenerateCustomIdOptions
 
@@ -8,9 +6,9 @@
 
 * **ISnowyflakeGenerateCustomIdOptions**
 
-### Index
+## Index
 
-#### Properties
+### Properties
 
 * [sequence](_interfaces_.isnowyflakegeneratecustomidoptions.md#sequence)
 * [timestamp](_interfaces_.isnowyflakegeneratecustomidoptions.md#timestamp)
@@ -19,16 +17,14 @@
 
 ###  sequence
 
-● **sequence**: *bigint*
+• **sequence**: *bigint*
 
-*Defined in [interfaces.ts:12](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L12)*
+*Defined in [interfaces.ts:12](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L12)*
 
 ___
 
 ###  timestamp
 
-● **timestamp**: *bigint*
+• **timestamp**: *bigint*
 
-*Defined in [interfaces.ts:11](https://github.com/negezor/snowyflake/blob/3efa9e8/src/interfaces.ts#L11)*
-
-___
+*Defined in [interfaces.ts:11](https://github.com/negezor/snowyflake/blob/d888ffb/src/interfaces.ts#L11)*

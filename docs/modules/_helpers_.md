@@ -1,12 +1,10 @@
-> ## [snowyflake](../README.md)
-
-["helpers"](_helpers_.md) /
+[snowyflake](../README.md) › ["helpers"](_helpers_.md)
 
 # External module: "helpers"
 
-### Index
+## Index
 
-#### Functions
+### Functions
 
 * [getNowBigInt](_helpers_.md#const-getnowbigint)
 
@@ -16,8 +14,6 @@
 
 ▸ **getNowBigInt**(): *bigint*
 
-*Defined in [helpers.ts:2](https://github.com/negezor/snowyflake/blob/3efa9e8/src/helpers.ts#L2)*
+*Defined in [helpers.ts:1](https://github.com/negezor/snowyflake/blob/d888ffb/src/helpers.ts#L1)*
 
 **Returns:** *bigint*
-
-___
