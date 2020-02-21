@@ -32,7 +32,7 @@ import { getNowBigInt } from './helpers';
 /**
  * NOTE: The BigInt constructor is used instead of a primitive because of a compiler bug.
  */
-export default class Snowyflake {
+export class Snowyflake {
 	/**
 	 * Snowflake start epoch
 	 */

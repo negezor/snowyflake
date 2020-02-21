@@ -1,4 +1,4 @@
-import Snowyflake from '..';
+import { Snowyflake } from '..';
 
 describe('Snowyflake', (): void => {
 	const EPOCH = BigInt(Date.UTC(2018, 1, 1, 0, 0, 0));
