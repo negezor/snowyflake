@@ -9,7 +9,7 @@ import {
 } from './interfaces';
 
 import {
-	Epochs,
+	Epoch,
 
 	DEFAULT_VALUE,
 	DEFAULT_SEQUENCE,
@@ -59,7 +59,7 @@ export class Snowyflake {
 	 * Constructor
 	 */
 	public constructor({
-		epoch = Epochs.UNIX,
+		epoch = Epoch.UNIX,
 
 		workerId = DEFAULT_VALUE,
 		processId = DEFAULT_VALUE

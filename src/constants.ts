@@ -1,4 +1,4 @@
-export const Epochs = {
+export const Epoch = {
 	UNIX: 0n,
 	TWITTER: 1288834974657n,
 	DISCORD: 1420070400000n
