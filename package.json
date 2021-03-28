@@ -46,6 +46,7 @@
 	},
 	"scripts": {
 		"prepare": "yarn run rollup:build && yarn run test",
+		"build": "yarn run rollup:build",
 		"rollup:build": "rollup -c",
 		"rollup:watch": "yarn run rollup:build -- --watch",
 		"test": "yarn run test:jest && yarn run test:eslint",
