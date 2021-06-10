@@ -15,14 +15,18 @@
 
 ### sequence
 
-• **sequence**: *bigint*
+• **sequence**: `bigint`
 
-Defined in: [interfaces.ts:12](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L12)
+#### Defined in
+
+[interfaces.ts:12](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L12)
 
 ___
 
 ### timestamp
 
-• **timestamp**: *bigint*
+• **timestamp**: `bigint`
 
-Defined in: [interfaces.ts:11](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L11)
+#### Defined in
+
+[interfaces.ts:11](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L11)

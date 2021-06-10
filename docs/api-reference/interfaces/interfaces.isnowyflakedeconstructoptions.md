@@ -14,6 +14,8 @@
 
 ### epoch
 
-• **epoch**: *bigint*
+• **epoch**: `bigint`
 
-Defined in: [interfaces.ts:16](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L16)
+#### Defined in
+
+[interfaces.ts:16](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L16)

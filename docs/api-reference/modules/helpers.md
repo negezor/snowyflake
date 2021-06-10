@@ -12,8 +12,12 @@
 
 ### getNowBigInt
 
-▸ `Const`**getNowBigInt**(): *bigint*
+▸ `Const` **getNowBigInt**(): `bigint`
 
-**Returns:** *bigint*
+#### Returns
 
-Defined in: [helpers.ts:1](https://github.com/negezor/snowyflake/blob/c47a6c2/src/helpers.ts#L1)
+`bigint`
+
+#### Defined in
+
+[helpers.ts:1](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/helpers.ts#L1)

@@ -17,30 +17,38 @@
 
 ### processId
 
-• **processId**: *bigint*
+• **processId**: `bigint`
 
-Defined in: [interfaces.ts:22](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L22)
+#### Defined in
+
+[interfaces.ts:22](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L22)
 
 ___
 
 ### sequence
 
-• **sequence**: *bigint*
+• **sequence**: `bigint`
 
-Defined in: [interfaces.ts:23](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L23)
+#### Defined in
+
+[interfaces.ts:23](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L23)
 
 ___
 
 ### timestamp
 
-• **timestamp**: *bigint*
+• **timestamp**: `bigint`
 
-Defined in: [interfaces.ts:20](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L20)
+#### Defined in
+
+[interfaces.ts:20](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L20)
 
 ___
 
 ### workerId
 
-• **workerId**: *bigint*
+• **workerId**: `bigint`
 
-Defined in: [interfaces.ts:21](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L21)
+#### Defined in
+
+[interfaces.ts:21](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L21)

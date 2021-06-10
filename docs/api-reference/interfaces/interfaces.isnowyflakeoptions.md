@@ -16,22 +16,28 @@
 
 ### epoch
 
-• `Optional` **epoch**: *bigint*
+• `Optional` **epoch**: `bigint`
 
-Defined in: [interfaces.ts:4](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L4)
+#### Defined in
+
+[interfaces.ts:4](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L4)
 
 ___
 
 ### processId
 
-• `Optional` **processId**: *bigint*
+• `Optional` **processId**: `bigint`
 
-Defined in: [interfaces.ts:7](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L7)
+#### Defined in
+
+[interfaces.ts:7](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L7)
 
 ___
 
 ### workerId
 
-• `Optional` **workerId**: *bigint*
+• `Optional` **workerId**: `bigint`
 
-Defined in: [interfaces.ts:6](https://github.com/negezor/snowyflake/blob/c47a6c2/src/interfaces.ts#L6)
+#### Defined in
+
+[interfaces.ts:6](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L6)
