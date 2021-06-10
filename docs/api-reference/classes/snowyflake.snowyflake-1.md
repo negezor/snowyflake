@@ -45,7 +45,7 @@ Constructor
 
 #### Defined in
 
-[snowyflake.ts:56](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L56)
+[snowyflake.ts:56](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L56)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Snowflake start epoch
 
 #### Defined in
 
-[snowyflake.ts:36](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L36)
+[snowyflake.ts:36](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L36)
 
 ___
 
@@ -69,7 +69,7 @@ Latest timestamp
 
 #### Defined in
 
-[snowyflake.ts:56](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L56)
+[snowyflake.ts:56](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L56)
 
 ___
 
@@ -81,7 +81,7 @@ Internal process ID
 
 #### Defined in
 
-[snowyflake.ts:46](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L46)
+[snowyflake.ts:46](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L46)
 
 ___
 
@@ -93,7 +93,7 @@ Sequence increment for process
 
 #### Defined in
 
-[snowyflake.ts:51](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L51)
+[snowyflake.ts:51](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L51)
 
 ___
 
@@ -105,7 +105,7 @@ Internal worker ID
 
 #### Defined in
 
-[snowyflake.ts:41](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L41)
+[snowyflake.ts:41](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L41)
 
 ## Methods
 
@@ -127,7 +127,7 @@ Deconstruct the Snowflake with local epoch
 
 #### Defined in
 
-[snowyflake.ts:96](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L96)
+[snowyflake.ts:96](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L96)
 
 ___
 
@@ -149,7 +149,7 @@ Generate a custom Snowflake
 
 #### Defined in
 
-[snowyflake.ts:105](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L105)
+[snowyflake.ts:105](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L105)
 
 ___
 
@@ -165,7 +165,7 @@ Generate a Snowflake
 
 #### Defined in
 
-[snowyflake.ts:76](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L76)
+[snowyflake.ts:76](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L76)
 
 ___
 
@@ -188,7 +188,7 @@ Deconstruct the Snowflake
 
 #### Defined in
 
-[snowyflake.ts:148](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L148)
+[snowyflake.ts:148](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L148)
 
 ___
 
@@ -210,7 +210,7 @@ Deconstruct the Snowflake processId
 
 #### Defined in
 
-[snowyflake.ts:134](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L134)
+[snowyflake.ts:134](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L134)
 
 ___
 
@@ -232,7 +232,7 @@ Deconstruct the Snowflake sequence
 
 #### Defined in
 
-[snowyflake.ts:141](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L141)
+[snowyflake.ts:141](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L141)
 
 ___
 
@@ -255,7 +255,7 @@ Deconstruct the Snowflake timestamp
 
 #### Defined in
 
-[snowyflake.ts:120](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L120)
+[snowyflake.ts:120](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L120)
 
 ___
 
@@ -277,4 +277,4 @@ Deconstruct the Snowflake workerId
 
 #### Defined in
 
-[snowyflake.ts:127](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/snowyflake.ts#L127)
+[snowyflake.ts:127](https://github.com/negezor/snowyflake/blob/0ed6110/src/snowyflake.ts#L127)

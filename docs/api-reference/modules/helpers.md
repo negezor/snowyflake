@@ -20,4 +20,4 @@
 
 #### Defined in
 
-[helpers.ts:1](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/helpers.ts#L1)
+[helpers.ts:1](https://github.com/negezor/snowyflake/blob/0ed6110/src/helpers.ts#L1)

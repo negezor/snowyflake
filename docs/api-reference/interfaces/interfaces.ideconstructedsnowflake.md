@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[interfaces.ts:22](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L22)
+[interfaces.ts:22](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L22)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[interfaces.ts:23](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L23)
+[interfaces.ts:23](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L23)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[interfaces.ts:20](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L20)
+[interfaces.ts:20](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L20)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[interfaces.ts:21](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L21)
+[interfaces.ts:21](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L21)

@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[interfaces.ts:4](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L4)
+[interfaces.ts:4](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L4)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[interfaces.ts:7](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L7)
+[interfaces.ts:7](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L7)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[interfaces.ts:6](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L6)
+[interfaces.ts:6](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L6)

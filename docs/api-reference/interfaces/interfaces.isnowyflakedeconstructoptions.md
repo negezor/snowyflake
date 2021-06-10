@@ -18,4 +18,4 @@
 
 #### Defined in
 
-[interfaces.ts:16](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/interfaces.ts#L16)
+[interfaces.ts:16](https://github.com/negezor/snowyflake/blob/0ed6110/src/interfaces.ts#L16)

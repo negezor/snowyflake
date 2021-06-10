@@ -31,7 +31,7 @@
 
 #### Defined in
 
-[constants.ts:8](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L8)
+[constants.ts:8](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L8)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[constants.ts:7](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L7)
+[constants.ts:7](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L7)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[constants.ts:1](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L1)
+[constants.ts:1](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L1)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[constants.ts:14](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L14)
+[constants.ts:14](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L14)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[constants.ts:18](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L18)
+[constants.ts:18](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L18)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[constants.ts:21](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L21)
+[constants.ts:21](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L21)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[constants.ts:26](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L26)
+[constants.ts:26](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L26)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[constants.ts:15](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L15)
+[constants.ts:15](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L15)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[constants.ts:22](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L22)
+[constants.ts:22](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L22)
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 #### Defined in
 
-[constants.ts:11](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L11)
+[constants.ts:11](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L11)
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[constants.ts:24](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L24)
+[constants.ts:24](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L24)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 #### Defined in
 
-[constants.ts:10](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L10)
+[constants.ts:10](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L10)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 #### Defined in
 
-[constants.ts:13](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L13)
+[constants.ts:13](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L13)
 
 ___
 
@@ -169,7 +169,7 @@ ___
 
 #### Defined in
 
-[constants.ts:17](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L17)
+[constants.ts:17](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L17)
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 #### Defined in
 
-[constants.ts:20](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L20)
+[constants.ts:20](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L20)
 
 ___
 
@@ -189,4 +189,4 @@ ___
 
 #### Defined in
 
-[constants.ts:25](https://github.com/negezor/snowyflake/blob/bcc5b1a/src/constants.ts#L25)
+[constants.ts:25](https://github.com/negezor/snowyflake/blob/0ed6110/src/constants.ts#L25)
