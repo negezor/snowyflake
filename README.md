@@ -14,7 +14,7 @@ Snowyflake - A modern implementation Snowflake on TypeScript
 ## Installation
 > **[Node.js](https://nodejs.org/) 16.0.0 or newer is required**
 
-> **TypeScript config required `"targer": "ES2019"` or higher**
+> **TypeScript config required `"target": "ES2019"` or higher**
 
 ### Yarn
 Recommended
