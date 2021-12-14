@@ -55,9 +55,10 @@
 		"build": "yarn run rollup:build",
 		"rollup:build": "rollup -c",
 		"rollup:watch": "yarn run rollup:build --watch",
-		"test": "yarn run test:jest && yarn run test:eslint",
+		"test": "yarn run test:jest && yarn run lint",
 		"test:jest": "jest --config jest.config.json --no-cache",
-		"test:eslint": "eslint --ext .ts --ignore-path .gitignore src/**/*.ts",
+		"lint": "yarn run lint:eslint",
+		"lint:eslint": "eslint --ext .ts --ignore-path .gitignore src/**/*.ts",
 		"docs:generate": "typedoc --theme markdown --out docs/api-reference --excludeExternals --readme none src"
 	}
 }
