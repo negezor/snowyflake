@@ -1,3 +1,4 @@
+<p align="center"><img src="https://raw.githubusercontent.com/negezor/snowyflake/master/docs/logo.svg?sanitize=true"></p>
 <p align="center">
 <a href="https://www.npmjs.com/package/snowyflake"><img src="https://img.shields.io/npm/v/snowyflake.svg?style=flat-square" alt="NPM version"></a>
 <a href="https://travis-ci.com/negezor/snowyflake"><img src="https://img.shields.io/travis/negezor/snowyflake.svg?style=flat-square" alt="Build Status"></a>
