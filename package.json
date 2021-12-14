@@ -53,6 +53,7 @@
 	"scripts": {
 		"prepare": "yarn run rollup:build && yarn run test",
 		"build": "yarn run rollup:build",
+		"watch": "yarn run rollup:watch",
 		"clean": "rm -rf lib",
 		"rollup:build": "rollup -c",
 		"rollup:watch": "yarn run rollup:build --watch",
