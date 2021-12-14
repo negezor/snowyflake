@@ -59,7 +59,7 @@ export class Snowyflake {
 	 * Constructor
 	 */
 	public constructor({
-		epoch = Epoch.UNIX,
+		epoch = Epoch.Unix,
 
 		workerId = DEFAULT_VALUE,
 		processId = DEFAULT_VALUE

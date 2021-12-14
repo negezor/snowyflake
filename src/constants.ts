@@ -1,7 +1,7 @@
 export const Epoch = {
-	UNIX: 0n,
-	TWITTER: 1288834974657n,
-	DISCORD: 1420070400000n
+	Unix: 0n,
+	Twitter: 1288834974657n,
+	Discord: 1420070400000n
 };
 
 export const DEFAULT_VALUE = 0n;

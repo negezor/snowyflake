@@ -28,11 +28,11 @@ npm i snowyflake
 
 ## Example usage
 ```js
-import { Snowyflake, Epochs } from 'snowyflake';
+import { Snowyflake, Epoch } from 'snowyflake';
 
 const snowyflake = new Snowyflake({
 	workerId: 1n,
-	epoch: Epochs.TWITTER // BigInt timestamp
+	epoch: Epoch.Twitter // BigInt timestamp
 });
 
 const snowflake = snowyflake.nextId();
