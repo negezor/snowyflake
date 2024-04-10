@@ -1,3 +1,1 @@
-export const getNowBigInt = (): bigint => (
-    BigInt(Date.now())
-);
+export const getNowBigInt = (): bigint => BigInt(Date.now());

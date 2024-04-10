@@ -1,7 +1,7 @@
 export const Epoch = {
     Unix: 0n,
     Twitter: 1288834974657n,
-    Discord: 1420070400000n
+    Discord: 1420070400000n,
 };
 
 export const DEFAULT_VALUE = 0n;
@@ -14,8 +14,8 @@ export const WORKER_ID_BITS = 5n;
 export const PROCESS_ID_BITS = 5n;
 export const SEQUENCE_BITS = 12n;
 
-export const WORKER_ID_DECONSTRUCT_MASK = 0x3E0000n;
-export const PROCESS_ID_DECONSTRUCT_MASK = 0x1F000n;
+export const WORKER_ID_DECONSTRUCT_MASK = 0x3e0000n;
+export const PROCESS_ID_DECONSTRUCT_MASK = 0x1f000n;
 
 export const WORKER_ID_MASK = SIGNED_INCREASE ^ (SIGNED_INCREASE << WORKER_ID_BITS);
 export const PROCESS_ID_MASK = SIGNED_INCREASE ^ (SIGNED_INCREASE << PROCESS_ID_BITS);
