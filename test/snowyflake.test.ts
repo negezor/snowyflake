@@ -1,3 +1,6 @@
+import { describe, it } from 'node:test';
+import { strictEqual } from 'node:assert';
+
 import { Snowyflake } from '..';
 
 describe('Snowyflake', (): void => {
@@ -16,9 +19,9 @@ describe('Snowyflake', (): void => {
             const snowflake = snowyflake.nextId();
             const result = snowyflake.deconstruct(snowflake);
 
-            expect(result.timestamp - (result.timestamp - EPOCH)).toBe(EPOCH);
-            expect(result.workerId).toBe(WORKER_ID);
-            expect(result.processId).toBe(PROCESS_ID);
+            strictEqual(result.timestamp - (result.timestamp - EPOCH), EPOCH);
+            strictEqual(result.workerId, WORKER_ID);
+            strictEqual(result.processId, PROCESS_ID);
         });
     });
 
@@ -32,9 +35,9 @@ describe('Snowyflake', (): void => {
         it('should be valid deconstruct Snowflake', (): void => {
             const result = snowyflake.deconstruct(116912706468204545n);
 
-            expect(result.timestamp - (result.timestamp - EPOCH)).toBe(EPOCH);
-            expect(result.workerId).toBe(WORKER_ID);
-            expect(result.processId).toBe(PROCESS_ID);
+            strictEqual(result.timestamp - (result.timestamp - EPOCH), EPOCH);
+            strictEqual(result.workerId, WORKER_ID);
+            strictEqual(result.processId, PROCESS_ID);
         });
     });
 
@@ -58,10 +61,10 @@ describe('Snowyflake', (): void => {
                 epoch: EPOCH
             });
 
-            expect(result.timestamp).toBe(timestamp);
-            expect(result.workerId).toBe(WORKER_ID);
-            expect(result.processId).toBe(PROCESS_ID);
-            expect(result.sequence).toBe(25n);
+            strictEqual(result.timestamp, timestamp);
+            strictEqual(result.workerId, WORKER_ID);
+            strictEqual(result.processId, PROCESS_ID);
+            strictEqual(result.sequence, 25n);
         });
     });
 
@@ -69,7 +72,7 @@ describe('Snowyflake', (): void => {
         it('should be valid deconstruct timestamp Snowflake', (): void => {
             const timestamp = Snowyflake.deconstructTimestamp(116912706468204545n, EPOCH);
 
-            expect(timestamp - (timestamp - EPOCH)).toBe(EPOCH);
+            strictEqual(timestamp - (timestamp - EPOCH), EPOCH);
         });
     });
 
@@ -77,7 +80,7 @@ describe('Snowyflake', (): void => {
         it('should be valid deconstruct workerId Snowflake', (): void => {
             const workerId = Snowyflake.deconstructWorkerId(183507330493861889n);
 
-            expect(workerId).toBe(WORKER_ID);
+            strictEqual(workerId, WORKER_ID);
         });
     });
 
@@ -85,7 +88,7 @@ describe('Snowyflake', (): void => {
         it('should be valid deconstruct processId Snowflake', (): void => {
             const processId = Snowyflake.deconstructProcessId(183507637844070401n);
 
-            expect(processId).toBe(PROCESS_ID);
+            strictEqual(processId, PROCESS_ID);
         });
     });
 
@@ -93,7 +96,7 @@ describe('Snowyflake', (): void => {
         it('should be valid deconstruct sequence Snowflake', (): void => {
             const sequence = Snowyflake.deconstructSequence(183511245515935779n);
 
-            expect(sequence).toBe(35n);
+            strictEqual(sequence, 35n);
         });
     });
 });
