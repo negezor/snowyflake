@@ -8,7 +8,6 @@ const cacheRoot = pathJoin(tmpdir(), '.rpt2_cache');
 const src = pathJoin(__dirname, 'src');
 const lib = pathJoin(__dirname, 'lib');
 
-// eslint-disable-next-line import/no-default-export
 export default {
     input: pathJoin(src, 'index.ts'),
     plugins: [
