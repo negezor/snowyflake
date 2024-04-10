@@ -32,8 +32,8 @@ npm i snowyflake
 import { Snowyflake, Epoch } from 'snowyflake';
 
 const snowyflake = new Snowyflake({
-	workerId: 1n,
-	epoch: Epoch.Twitter // BigInt timestamp
+    workerId: 1n,
+    epoch: Epoch.Twitter // BigInt timestamp
 });
 
 const snowflake = snowyflake.nextId();
@@ -44,8 +44,8 @@ const deconstructSnowflake = snowyflake.deconstruct(snowflake);
 
 console.log(deconstructSnowflake); // =>
 // { timestamp: 1545317651163n,
-// 	workerId: 1n,
-// 	processId: 0n,
-// 	sequence: 0n }
+//     workerId: 1n,
+//     processId: 0n,
+//     sequence: 0n }
 
 ```

@@ -1,24 +1,24 @@
 export type Snowflake = bigint;
 
 export interface ISnowyflakeOptions {
-	epoch?: bigint;
+    epoch?: bigint;
 
-	workerId?: bigint;
-	processId?: bigint;
+    workerId?: bigint;
+    processId?: bigint;
 }
 
 export interface ISnowyflakeGenerateCustomIdOptions {
-	timestamp: bigint;
-	sequence: bigint;
+    timestamp: bigint;
+    sequence: bigint;
 }
 
 export interface ISnowyflakeDeconstructOptions {
-	epoch: bigint;
+    epoch: bigint;
 }
 
 export interface IDeconstructedSnowflake {
-	timestamp: bigint;
-	workerId: bigint;
-	processId: bigint;
-	sequence: bigint;
+    timestamp: bigint;
+    workerId: bigint;
+    processId: bigint;
+    sequence: bigint;
 }
