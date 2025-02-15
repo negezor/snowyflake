@@ -1,7 +1,7 @@
 import typescriptPlugin from 'rollup-plugin-typescript2';
 
-import { tmpdir } from 'os';
-import { join as pathJoin } from 'path';
+import { tmpdir } from 'node:os';
+import { join as pathJoin } from 'node:path';
 
 const cacheRoot = pathJoin(tmpdir(), '.rpt2_cache');
 
