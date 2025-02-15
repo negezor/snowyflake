@@ -55,7 +55,7 @@
         "test": "npm run test:node && npm run lint",
         "test:node": "node --import tsx --test test/*.test.ts",
         "lint": "npm run lint:biome",
-        "lint:biome": "biome lint --apply ./src",
+        "lint:biome": "biome lint --write ./src",
         "docs:generate": "typedoc --plugin typedoc-plugin-markdown --out docs/api-reference --excludeExternals --readme none src"
     }
 }
